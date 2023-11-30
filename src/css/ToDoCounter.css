@@ -1,0 +1,11 @@
+.ToDoCounter{
+    padding: 0 3rem;
+}
+
+.ToDosCongrats{
+    visibility: hidden;
+}
+
+.ToDosCongrats--active{
+    visibility: visible;
+}

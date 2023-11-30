@@ -1,0 +1,13 @@
+.ToDoSearch{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border: 0px;
+    background-color: rgb(230,255,230);
+}
+
+.ToDoSearch:focus{
+    /* padding: calc(0.6rem - 1px); */
+    outline-color: rgb(150, 255, 150);
+}

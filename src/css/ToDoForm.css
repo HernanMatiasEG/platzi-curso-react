@@ -1,0 +1,54 @@
+.todoForm {
+    width: 90%;
+    max-width: 15rem;
+    background-color: white;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoForm label {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.todoForm textarea {
+    box-shadow: 0px 5px 50px rgba(32, 35, 32, 0.25);
+    margin-bottom: 1rem;
+    height: 3rem;
+    width: calc(100% - 2rem);
+    resize: vertical;
+    /* border-color: transparent; */
+}
+
+.todoForm textarea:focus {
+    outline-color: rgb(76, 255, 76);
+}
+
+.todoForm .todo-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.todoForm .todo-button {
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    margin: 0 1rem;
+    border: none;
+}
+
+.todoForm .todo-button--add {
+    background: rgb(78, 255, 78);
+    border-radius: 1rem;
+    font-weight: bold;
+    /* color: rgb(217, 255, 217); */
+    /* background-color: rgb(200, 245, 200); */
+}
+
+.todoForm .todo-button--cancel {
+    background-color: transparent;
+}

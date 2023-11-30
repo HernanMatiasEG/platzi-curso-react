@@ -1,0 +1,51 @@
+.ToDoItem{
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgb(250, 250, 250);
+    border-radius: 1rem;
+    align-items: center;
+    height: 2rem;
+}
+
+.ToDoItem:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.ToDoItem-Icon{
+    cursor: pointer;
+    user-select: none;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.ToDoItem-Icon--active{
+    color: rgb(0, 215, 0);
+}
+
+.ToDoItem-Icon:hover{
+    color: rgb(0, 215, 0);
+}
+
+.ToDoItem-p{
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0;
+    width: calc(100% - 1rem);
+}
+
+.ToDoItem-p--completed{
+    text-decoration-line: line-through;
+}
+
+.ToDoItem-IconDelete{
+    /* padding: 0.5rem; */
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ToDoItem-IconDelete:hover{
+    color: rgb(215, 0, 0);
+}
