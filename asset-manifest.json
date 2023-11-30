@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/platzi-curso-react/static/css/main.f3c27fb1.css",
+    "main.js": "/platzi-curso-react/static/js/main.d166ae11.js",
+    "index.html": "/platzi-curso-react/index.html",
+    "main.f3c27fb1.css.map": "/platzi-curso-react/static/css/main.f3c27fb1.css.map",
+    "main.d166ae11.js.map": "/platzi-curso-react/static/js/main.d166ae11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c27fb1.css",
+    "static/js/main.d166ae11.js"
+  ]
+}
